@@ -1,0 +1,24 @@
+{% load static %}
+<head>
+	<link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<h1> Hello World</h1>
+
+<img src="{% static 'example.jpg'%}" alt="kitten">
+
+<p>This is your first paragraf</p>
+
+<p>{{title}}</p>
+
+<p>{{dict1.django}}</p>
+
+<h2>
+{% for num in my_list %}
+	{{num}} <br>
+{% endfor %}
+</h2>
+
+<p>{{dict1.django|title}}</p>
+
+
