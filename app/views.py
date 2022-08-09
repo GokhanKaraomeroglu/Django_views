@@ -7,7 +7,7 @@ def home(request):
     # print(request.path)
     # return HttpResponse('Hello Everybody...')
         context = {
-        'title': 'clarusway',
+        'title': 'kara',
         'dict1': {'django': 'best framework'},
         'my_list': [2, 3, 4]
     }
